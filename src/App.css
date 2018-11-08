@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  
+  height: 40px;
+}
+.font-color{
+	color: black;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 30px;
+	color: white;
+	position: fixed;
+}
+.form-signin {
+  width: 100%;
+  max-width: 300px;
+  padding-left: 20px;
+  margin: auto;
+}
+div.header {
+	background-color:black ;
+}
+
+.App-title {
+  font-size: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:				white	;
+}
+.bod{
+
+background-color: rgb(238, 238, 238) ;
+}
+.changepass_box
+{
+	box-shadow:black;
+	color: #000;
+}
+.font-col{
+	font-size: 18px;
+	text-align:center;
+	color: black;
+}
+.settings{
+	position: fixed;
+	color: #000;
+	padding-bottom:1px;
+	padding-right: 150px;
+background-color:rgb(255, 255, 255) ;
+}
+.navbar {
+  position: fixed;
+  background-color:white;
+}
+.shadow-box{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  position:relative;
+}
+.loginpage
+{
+
+  padding-top: 40px;
+}
+
+.card{
+	width: 800px;
+}
+.App-intro {
+  font-size: large;
+}
+.headi {
+	margin: 0px;
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+	letter-spacing: 1px;
+	color: #557197;
+}
+.addtopic{
+	margin: 2px;
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-family: "Verdana";
+	letter-spacing: 0;
+	color: #565597;
+}
+.split {
+	height: 100%;
+	width: 25%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.sidenav {
+	height: 150%;
+	width: 200px;
+	position: absolute;
+	z-index: 1;
+	top: 10%;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+.main {
+	margin-left: 160px; /* Same as the width of the sidenav */
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+	position: fixed;
+}
+
+.left {
+	left: 0;
+	background-color:black;
+	position: fixed;
+	top: 10%;
+	width: 20%;
+}
+
+.vertical {
+	width: 11px;
+	margin: 0 -5px;
+	border-left: 5px solid rgba(255, 255, 255, 0);
+	border-right: 5px solid rgba(255, 255, 255, 0);
+	cursor: col-resize;
+}
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+  color: aqua;
+	font-family: Arial;
+}
+
+.sbmt_btn {
+	margin-top: 10px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	position: fixed;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	outline: 0px;
+}
+.error_form {
+	font-size: 15px;
+	font-family: Arial;
+	color: #FF0052;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
